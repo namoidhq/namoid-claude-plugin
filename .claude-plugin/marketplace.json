@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "namoid",
+  "description": "Official NamoID plugins for Claude Code.",
+  "owner": {
+    "name": "NamoID",
+    "email": "hello@namoid.in"
+  },
+  "plugins": [
+    {
+      "name": "namoid-setup-assistant",
+      "description": "Configure and diagnose NamoID Customer Identity with scoped, user-approved access.",
+      "source": "./plugins/namoid-setup-assistant",
+      "category": "Developer Tools",
+      "homepage": "https://namoid.in"
+    }
+  ]
+}
