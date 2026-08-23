@@ -5,8 +5,8 @@
 
 Official Claude Code marketplace repository for the NamoID Setup Assistant.
 
-The plugin connects Claude Code to `https://api.namoid.in/v1/setup/mcp` and
-uses NamoID's browser-based OAuth flow. It contains no credentials. Remote
+The plugin connects Claude Code to the canonical `https://mcp.namoid.in`
+endpoint and uses NamoID's browser-based OAuth flow. It contains no credentials. Remote
 permissions are revocable and limited to `setup.read` plus user-approved
 `setup.write`.
 
