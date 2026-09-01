@@ -2,7 +2,7 @@
   "mcpServers": {
     "namoid-setup-assistant": {
       "type": "http",
-      "url": "https://api.namoid.in/v1/setup/mcp"
+      "url": "https://mcp.namoid.in"
     }
   }
 }
