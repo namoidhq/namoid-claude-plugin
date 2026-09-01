@@ -4,15 +4,24 @@
   "description": "Official NamoID plugins for Claude Code.",
   "owner": {
     "name": "NamoID",
-    "email": "hello@namoid.in"
+    "email": "hello@namoid.in",
+    "url": "https://namoid.in"
+  },
+  "renames": {
+    "namoid-setup-assistant": "customer-identity"
   },
   "plugins": [
     {
-      "name": "namoid-setup-assistant",
+      "name": "customer-identity",
+      "displayName": "NamoID Customer Identity",
       "description": "Configure and diagnose NamoID Customer Identity with scoped, user-approved access.",
-      "source": "./plugins/namoid-setup-assistant",
+      "version": "0.2.0",
+      "source": "./plugins/customer-identity",
       "category": "Developer Tools",
-      "homepage": "https://namoid.in"
+      "homepage": "https://namoid.in",
+      "repository": "https://github.com/namoidhq/namoid-claude-plugin",
+      "license": "MIT",
+      "tags": ["authentication", "identity", "oauth", "oidc", "namoid"]
     }
   ]
 }
