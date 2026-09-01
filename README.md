@@ -10,6 +10,11 @@ endpoint and uses NamoID's browser-based OAuth flow. It contains no credentials.
 permissions are revocable and limited to `setup.read` plus user-approved
 `setup.write`.
 
+It includes six Customer Identity skills for setup, diagnosis, verification,
+secure logout, session-security review, and production readiness. Claude Code
+also receives a read-only session reviewer and a `/dryrun` command that previews
+CLI setup without changing files or remote configuration.
+
 ## Install
 
 ```text
