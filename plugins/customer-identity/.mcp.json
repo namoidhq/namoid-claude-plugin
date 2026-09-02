@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "namoid-setup-assistant": {
+    "namoid-customer-identity": {
       "type": "http",
       "url": "https://mcp.namoid.in"
     }

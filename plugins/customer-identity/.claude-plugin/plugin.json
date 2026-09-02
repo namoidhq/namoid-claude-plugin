@@ -1,10 +1,11 @@
 {
-  "name": "namoid-setup-assistant",
+  "name": "customer-identity",
   "description": "Set up and diagnose NamoID Customer Identity from Claude Code.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "NamoID",
-    "email": "hello@namoid.in"
+    "email": "hello@namoid.in",
+    "url": "https://namoid.in"
   },
   "homepage": "https://namoid.in",
   "repository": "https://github.com/namoidhq/namoid-claude-plugin",
